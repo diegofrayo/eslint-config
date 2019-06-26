@@ -3,6 +3,8 @@
 My own ESLint config for React and Node.js projects
 
 
-## Docs
+## Rules
 
-See the rules [here](http://github.com/diegofrayo/eslint-config/tree/master/index.js)
+- [React](http://github.com/diegofrayo/eslint-config/tree/master/index.js)
+
+- [Node.js](http://github.com/diegofrayo/eslint-config/tree/master/node.js)

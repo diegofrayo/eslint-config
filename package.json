@@ -1,17 +1,19 @@
 {
   "name": "@diegofrayo/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "My own ESLint config for React and Node.js projects",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
-  "homepage": "https://github.com/diegofrayo/code/eslint-config#readme",
+  "homepage": "https://github.com/diegofrayo/eslint-config#readme",
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslint-config",
+    "eslint-config-node",
+    "eslint-config-react"
   ],
   "bugs": {
-    "url": "https://github.com/diegofrayo/code/issues",
+    "url": "https://github.com/diegofrayo/eslint-config/issues",
     "email": "diegofrayo@gmail.com"
   },
   "author": {
@@ -20,12 +22,13 @@
     "url": "https://diegofrayo.netlify.com"
   },
   "repository": {
-    "url": "https://github.com/diegofrayo/code.git",
+    "url": "https://github.com/diegofrayo/eslint-config.git",
     "type": "git"
   },
   "dependencies": {
     "babel-eslint": "latest",
     "eslint-config-airbnb": "latest",
+    "eslint-config-airbnb-base": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-import": "latest",
     "eslint-plugin-jsx-a11y": "latest",
@@ -40,6 +43,7 @@
   },
   "files": [
     "index.js",
+    "node.js",
     "package.json",
     "README.md"
   ],
