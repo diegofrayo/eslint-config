@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['eslint:all', 'plugin:react/recommended', 'airbnb', 'prettier'],
   parser: 'babel-eslint',
-  plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
+  plugins: ['react', 'jsx-a11y', 'import', 'prettier', 'react-hooks'],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
