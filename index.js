@@ -31,6 +31,7 @@ module.exports = {
     'import/no-unresolved': 0,
 
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
+    'react/jsx-fragments': 0,
     'react/forbid-prop-types': 0,
 
     // -----------------------
@@ -48,10 +49,12 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules
     'jsx-a11y/click-events-have-key-events': 1,
     'jsx-a11y/label-has-associated-control': 1,
+    'jsx-a11y/label-has-for': 1,
     'jsx-a11y/no-noninteractive-element-interactions': 1,
 
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react/destructuring-assignment': 1,
+    'react/jsx-props-no-spreading': 1,
     'react/prefer-stateless-function': 1,
     'react/sort-comp': [
       1,
